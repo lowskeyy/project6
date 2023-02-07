@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>BizNews - Free News Website Template</title>
+    <title>SixNews</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -13,7 +13,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
                 <nav class="navbar navbar-expand-sm bg-dark p-0">
                     <ul class="navbar-nav ml-n2">
                         <li class="nav-item border-right border-secondary">
-                            <a class="nav-link text-body small" href="#">Monday, January 1, 2045</a>
+                            <a class="nav-link text-body small disabled fw-bold" href="#"><?php echo date("l, d F Y"); ?></a>
                         </li>
                         <li class="nav-item border-right border-secondary">
                             <a class="nav-link text-body small" href="#">Advertise</a>
@@ -113,8 +113,7 @@
                 <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
                     <input type="text" class="form-control border-0" placeholder="Keyword">
                     <div class="input-group-append">
-                        <button class="input-group-text bg-primary text-dark border-0 px-3"><i
-                                class="fa fa-search"></i></button>
+                        <button class="input-group-text bg-primary text-dark border-0 px-3"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
             </div>
@@ -132,8 +131,7 @@
                         <img class="img-fluid h-100" src="img/news-800x500-1.jpg" style="object-fit: cover;">
                         <div class="overlay">
                             <div class="mb-2">
-                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                    href="">Business</a>
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                 <a class="text-white" href="">Jan 01, 2045</a>
                             </div>
                             <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
@@ -143,8 +141,7 @@
                         <img class="img-fluid h-100" src="img/news-800x500-2.jpg" style="object-fit: cover;">
                         <div class="overlay">
                             <div class="mb-2">
-                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                    href="">Business</a>
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                 <a class="text-white" href="">Jan 01, 2045</a>
                             </div>
                             <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
@@ -154,8 +151,7 @@
                         <img class="img-fluid h-100" src="img/news-800x500-3.jpg" style="object-fit: cover;">
                         <div class="overlay">
                             <div class="mb-2">
-                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                    href="">Business</a>
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                 <a class="text-white" href="">Jan 01, 2045</a>
                             </div>
                             <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit. Proin vitae porta diam...</a>
@@ -170,8 +166,7 @@
                             <img class="img-fluid w-100 h-100" src="img/news-700x435-1.jpg" style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
-                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                        href="">Business</a>
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                     <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                                 </div>
                                 <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -183,8 +178,7 @@
                             <img class="img-fluid w-100 h-100" src="img/news-700x435-2.jpg" style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
-                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                        href="">Business</a>
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                     <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                                 </div>
                                 <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -196,8 +190,7 @@
                             <img class="img-fluid w-100 h-100" src="img/news-700x435-3.jpg" style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
-                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                        href="">Business</a>
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                     <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                                 </div>
                                 <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -209,8 +202,7 @@
                             <img class="img-fluid w-100 h-100" src="img/news-700x435-4.jpg" style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-2">
-                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                        href="">Business</a>
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                     <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                                 </div>
                                 <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -231,8 +223,7 @@
                 <div class="col-12">
                     <div class="d-flex justify-content-between">
                         <div class="bg-primary text-dark text-center font-weight-medium py-2" style="width: 170px;">Breaking News</div>
-                        <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3"
-                            style="width: calc(100% - 170px); padding-right: 90px;">
+                        <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3" style="width: calc(100% - 170px); padding-right: 90px;">
                             <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit. Proin interdum lacus eget ante tincidunt, sed faucibus nisl sodales</a></div>
                             <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit. Proin interdum lacus eget ante tincidunt, sed faucibus nisl sodales</a></div>
                         </div>
@@ -255,8 +246,7 @@
                     <img class="img-fluid h-100" src="img/news-700x435-1.jpg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
-                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                href="">Business</a>
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                             <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                         </div>
                         <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -266,8 +256,7 @@
                     <img class="img-fluid h-100" src="img/news-700x435-2.jpg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
-                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                href="">Business</a>
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                             <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                         </div>
                         <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -277,8 +266,7 @@
                     <img class="img-fluid h-100" src="img/news-700x435-3.jpg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
-                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                href="">Business</a>
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                             <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                         </div>
                         <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -288,8 +276,7 @@
                     <img class="img-fluid h-100" src="img/news-700x435-4.jpg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
-                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                href="">Business</a>
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                             <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                         </div>
                         <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -299,8 +286,7 @@
                     <img class="img-fluid h-100" src="img/news-700x435-5.jpg" style="object-fit: cover;">
                     <div class="overlay">
                         <div class="mb-2">
-                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                href="">Business</a>
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                             <a class="text-white" href=""><small>Jan 01, 2045</small></a>
                         </div>
                         <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -329,8 +315,7 @@
                                 <img class="img-fluid w-100" src="img/news-700x435-1.jpg" style="object-fit: cover;">
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
-                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="">Business</a>
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                         <a class="text-body" href=""><small>Jan 01, 2045</small></a>
                                     </div>
                                     <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -354,8 +339,7 @@
                                 <img class="img-fluid w-100" src="img/news-700x435-2.jpg" style="object-fit: cover;">
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
-                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="">Business</a>
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                         <a class="text-body" href=""><small>Jan 01, 2045</small></a>
                                     </div>
                                     <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -382,8 +366,7 @@
                                 <img class="img-fluid w-100" src="img/news-700x435-3.jpg" style="object-fit: cover;">
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
-                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="">Business</a>
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                         <a class="text-body" href=""><small>Jan 01, 2045</small></a>
                                     </div>
                                     <a class="h4 d-block mb-0 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -405,8 +388,7 @@
                                 <img class="img-fluid w-100" src="img/news-700x435-4.jpg" style="object-fit: cover;">
                                 <div class="bg-white border border-top-0 p-4">
                                     <div class="mb-2">
-                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                            href="">Business</a>
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                         <a class="text-body" href=""><small>Jan 01, 2045</small></a>
                                     </div>
                                     <a class="h4 d-block mb-0 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -478,8 +460,7 @@
                                 <div class="col-md-6 d-flex flex-column border bg-white h-100 px-0">
                                     <div class="mt-auto p-4">
                                         <div class="mb-2">
-                                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                                href="">Business</a>
+                                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Business</a>
                                             <a class="text-body" href=""><small>Jan 01, 2045</small></a>
                                         </div>
                                         <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
@@ -545,7 +526,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4">
                     <!-- Social Follow Start -->
                     <div class="mb-3">
@@ -791,10 +772,11 @@
         </div>
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-        <p class="m-0 text-center">&copy; <a href="#">Your Site Name</a>. All Rights Reserved. 
-		
-		<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-		Design by <a href="https://htmlcodex.com">HTML Codex</a></p>
+        <p class="m-0 text-center">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Design by <a href="https://htmlcodex.com">HTML Codex</a>
+        </p>
     </div>
     <!-- Footer End -->
 
