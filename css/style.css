@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mulish&family=Sevillana&display=swap');
+
+body {
+    font-family: 'Mulish';
+    min-height: 2000px;
+    background-color:  rgba(255,206,1,1);
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #F9F9F9;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    /* text-shadow: 0px 0px 2px #FAF4B7; */
+}
+
+#navbarNav ul li {
+    position: relative;
+    margin-right: 10px;
+}
+
+#navbarNav ul li::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background: #010100;
+    left: 0;
+    bottom: 3px;
+    transition: .5s;
+}
+
+#navbarNav ul li:hover::after {
+    width: 95%;
+}
+
+/* Navbar End */
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,206,1,1) 1%, rgba(255,255,255,0) 25%);
+}
+
+.hero .content h1 {
+    font-size: 56px;
+    color: #010100;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: -20px;
+    text-shadow: 1px 1px 5px rgba(1, 1, 3, .3);
+}
+
+.hero .content h1 span {
+    color: #f26f21;
+    text-shadow: 1px 1px 5px rgba(1, 1, 3, .4);
+}
+
+.hero .content p {
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 22px;
+    margin-left: 80px;
+}
+
+.hero .content a {
+    margin-top: 10px;
+    margin-left: 80px;
+    position: absolute;
+    z-index: 10;
+}
+/* Hero Section end */
+
+
+/* Card */
+
+.card {
+    margin-top: 140px;
+    color: white;
+    /* filter: drop-shadow(0 0 3px black); */
+    margin-left: 12px;
+    /* text-shadow: 0 0 2px black; */
+}
+
+#card1:hover {
+    animation: .2s onhover1 linear forwards;
+    transition: 100s;
+}
+
+#card2:hover {
+    animation: .2s onhover2 linear forwards;
+    transition: 100s;
+}
+
+#card3:hover {
+    animation: .2s onhover3 linear forwards;
+    transition: 100s;
+}
+
+#card4:hover {
+    animation: .2s onhover4 linear forwards;
+    transition: 100s;
+}
+
+@keyframes onhover1 {
+    0% {
+        background-size: 304px;
+    }
+    100% {
+        background-size: 320px;
+    }
+}
+
+@keyframes onhover2 {
+    0% {
+        background-size: 296px;
+    }
+    100% {
+        background-size: 320px;
+    }
+}
+
+@keyframes onhover3 {
+    0% {
+        background-size: 340px;
+    }
+    100% {
+        background-size: 356px;
+    }
+}
+
+@keyframes onhover4 {
+    0% {
+        background-size: 240px;
+    }
+    100% {
+        background-size: 256px;
+    }
+}
+
+#card1 {
+    width: 240px;
+    height: 456px;
+    background-image: url(../img/card1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-weight: 600;
+    transition: .4s;
+}
+
+#card2 {
+    width: 240px;
+    height: 456px;
+    background-image: url(../img/card2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-weight: 600;
+}
+
+#card3 {
+    width: 240px;
+    height: 456px;
+    background-image: url(../img/card3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-weight: 600;
+}
+
+#card4 {
+    width: 240px;
+    height: 456px;
+    background-image: url(../img/card4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-weight: 600;
+}
+
+
+/* Card end */
