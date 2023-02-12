@@ -1,45 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mulish&family=Sevillana&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 body {
     font-family: 'Mulish';
     min-height: 2000px;
-    background-color:  rgba(255,206,1,1);
 }
 
 /* Navbar */
 
-.navbar {
-    background-color: #F9F9F9;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
+
+.navbar-brand {
+    position: relative;
+    margin-top: 20px;
+    left: 64px;
 }
 
+
+
 .nav-link {
-    color: black;
     font-weight: bold;
     /* text-shadow: 0px 0px 2px #FAF4B7; */
 }
 
-#navbarNav ul li {
+.navbarNav ul li {
     position: relative;
     margin-right: 10px;
 }
 
-#navbarNav ul li::after {
+.navbarNav ul li a:hover {
+    color: #ffce01;
+}
+
+.navbarNav ul li::after {
     content: '';
     position: absolute;
     height: 2px;
     width: 0%;
-    background: #010100;
+    background: #ffce01;
     left: 0;
     bottom: 3px;
     transition: .5s;
 }
 
-#navbarNav ul li:hover::after {
+.navbarNav ul li:hover::after {
     width: 95%;
+    
 }
 
 /* Navbar End */
@@ -49,11 +54,12 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(../img/bg-hero.jpg);
+    background-image: url(img/kertas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+    color: black;
 }
 
 .hero::after {
@@ -62,12 +68,12 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, rgba(255,206,1,1) 1%, rgba(255,255,255,0) 25%);
+    background: linear-gradient(0deg, var(--bs-body-bg) 1%, rgba(255,255,255,0) 30%);
 }
 
 .hero .content h1 {
     font-size: 56px;
-    color: #010100;
+    color: var(--bs-body-color);
     font-weight: bold;
     margin-left: 80px;
     margin-top: -20px;
@@ -75,7 +81,7 @@ body {
 }
 
 .hero .content h1 span {
-    color: #f26f21;
+    color: #ffce01;
     text-shadow: 1px 1px 5px rgba(1, 1, 3, .4);
 }
 
@@ -84,6 +90,7 @@ body {
     font-size: 19px;
     line-height: 22px;
     margin-left: 80px;
+    color: var(--bs-body-color);
 }
 
 .hero .content a {
@@ -97,74 +104,24 @@ body {
 
 /* Card */
 
+.card-news {
+    background-color:  rgba(255,206,1,1);
+}
+
 .card {
     margin-top: 140px;
     color: white;
     /* filter: drop-shadow(0 0 3px black); */
     margin-left: 12px;
     /* text-shadow: 0 0 2px black; */
-}
-
-#card1:hover {
-    animation: .2s onhover1 linear forwards;
-    transition: 100s;
-}
-
-#card2:hover {
-    animation: .2s onhover2 linear forwards;
-    transition: 100s;
-}
-
-#card3:hover {
-    animation: .2s onhover3 linear forwards;
-    transition: 100s;
-}
-
-#card4:hover {
-    animation: .2s onhover4 linear forwards;
-    transition: 100s;
-}
-
-@keyframes onhover1 {
-    0% {
-        background-size: 304px;
-    }
-    100% {
-        background-size: 320px;
-    }
-}
-
-@keyframes onhover2 {
-    0% {
-        background-size: 296px;
-    }
-    100% {
-        background-size: 320px;
-    }
-}
-
-@keyframes onhover3 {
-    0% {
-        background-size: 340px;
-    }
-    100% {
-        background-size: 356px;
-    }
-}
-
-@keyframes onhover4 {
-    0% {
-        background-size: 240px;
-    }
-    100% {
-        background-size: 256px;
-    }
+    transition: .4s;
+    margin-bottom: 256px;
 }
 
 #card1 {
     width: 240px;
     height: 456px;
-    background-image: url(../img/card1.jpg);
+    background-image: url(img/card1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -176,35 +133,65 @@ body {
 #card2 {
     width: 240px;
     height: 456px;
-    background-image: url(../img/card2.jpg);
+    background-image: url(img/card2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     font-weight: 600;
+    transition: .4s;
 }
 
 #card3 {
     width: 240px;
     height: 456px;
-    background-image: url(../img/card3.jpg);
+    background-image: url(img/card3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     font-weight: 600;
+    transition: .4s;
 }
 
 #card4 {
     width: 240px;
     height: 456px;
-    background-image: url(../img/card4.jpg);
+    background-image: url(img/card4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     font-weight: 600;
+    transition: .4s;
+}
+
+/* Card end */
+
+/* Berita */
+.carousel {
+    width:80%;
+    height: 90vh;
+}
+
+.carousel img {
+    width: 60%;
+    height: 90vh;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    z-index: 99;
+    margin-left: 32%;  
+    margin-top: 532px;  
+}
+
+.carousel-control-next {
+    position: absolute;
+    z-index: 99;
+    margin-right: 32%;  
+    margin-top: 536px;  
 }
 
 
-/* Card end */
+/* Berita end */
